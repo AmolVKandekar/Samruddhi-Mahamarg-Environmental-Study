@@ -1,0 +1,217 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "S01",
+        "location": "Shahapur area",
+        "lat": 19.45,
+        "lon": 73.33,
+        "radius_km": 5.0,
+        "topic": "Air quality",
+        "phase": "Operations",
+        "evidence": "Proposed measurement",
+        "source_id": "",
+        "assessment": "Road traffic exposure is a screening question at nearby settlements.",
+        "mitigation": "Select upwind and downwind sites before designing controls.",
+        "measurement": "Measure seasonal PM2.5 and PM10 at paired locations and record traffic counts.",
+        "source": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.33,
+          19.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "S02",
+        "location": "Igatpuri area",
+        "lat": 19.7,
+        "lon": 73.56,
+        "radius_km": 5.0,
+        "topic": "Soil and drainage",
+        "phase": "Construction",
+        "evidence": "Proposed measurement",
+        "source_id": "",
+        "assessment": "Steep slopes and construction disturbance warrant review before assigning erosion risk.",
+        "mitigation": "Inspect stabilized cut slopes and drainage outfalls before monsoon.",
+        "measurement": "Log exposed soil cover and outfall turbidity before and after rainfall.",
+        "source": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.56,
+          19.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "S03",
+        "location": "Sinnar area",
+        "lat": 19.85,
+        "lon": 74.0,
+        "radius_km": 5.0,
+        "topic": "Forest and habitat",
+        "phase": "Construction",
+        "evidence": "Proposed measurement",
+        "source_id": "",
+        "assessment": "A land-cover comparison can screen for canopy change near the road corridor.",
+        "mitigation": "Check compensatory planting survival and restore temporary work areas.",
+        "measurement": "Classify pre- and post-construction land cover using comparable seasonal imagery and field checks.",
+        "source": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.0,
+          19.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "S04",
+        "location": "Shirdi area",
+        "lat": 19.77,
+        "lon": 74.48,
+        "radius_km": 5.0,
+        "topic": "Air quality",
+        "phase": "Construction",
+        "evidence": "Proposed measurement",
+        "source_id": "",
+        "assessment": "Construction dust is a plausible source of short-term particulate exposure in the screening framework.",
+        "mitigation": "Document road watering and protective covers where justified by the monitoring plan.",
+        "measurement": "Compare particulate levels near haul roads with a background location.",
+        "source": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.48,
+          19.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "S05",
+        "location": "Chhatrapati Sambhajinagar area",
+        "lat": 19.88,
+        "lon": 75.34,
+        "radius_km": 5.0,
+        "topic": "Soil and drainage",
+        "phase": "Operations",
+        "evidence": "Proposed measurement",
+        "source_id": "",
+        "assessment": "Road embankments and drainage changes are a screening concern where runoff reaches cultivated land.",
+        "mitigation": "Review culvert capacity and erosion protection with field observations.",
+        "measurement": "Survey drainage paths and check sediment deposition downstream of outlets.",
+        "source": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.34,
+          19.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "S06",
+        "location": "Karanja area",
+        "lat": 20.48,
+        "lon": 77.49,
+        "radius_km": 10.0,
+        "topic": "Forest and habitat",
+        "phase": "Planning",
+        "evidence": "Documented condition",
+        "source_id": "nbwl-2018",
+        "assessment": "National Board for Wildlife minutes record a habitat-improvement condition for a specific package near the Karanja–Sohol sanctuary.",
+        "mitigation": "Track habitat improvement against the condition for that package.",
+        "measurement": "Use the approved package boundary and documentary evidence to verify measures.",
+        "source": {
+          "source_id": "nbwl-2018",
+          "title": "National Board for Wildlife Standing Committee minutes (2018) — item 50.3.8.3",
+          "url": "https://cpc.parivesh.nic.in/writereaddata/Order%20and%20Release/Minutes%20of%2050%20Meeting%20of%20the%20Standing%20Committee%20of%20National%20Board%20for%20Wildlife.pdf"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.49,
+          20.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "S07",
+        "location": "Karanja area",
+        "lat": 20.48,
+        "lon": 77.49,
+        "radius_km": 10.0,
+        "topic": "Wildlife movement",
+        "phase": "Planning",
+        "evidence": "Documented condition",
+        "source_id": "nbwl-2018",
+        "assessment": "The same package minutes record a condition to provide underpasses where suggested by the Forest Department.",
+        "mitigation": "Compare installed structures with approved drawings and planned crossing locations.",
+        "measurement": "Record crossing dimensions and verify access at both ends.",
+        "source": {
+          "source_id": "nbwl-2018",
+          "title": "National Board for Wildlife Standing Committee minutes (2018) — item 50.3.8.3",
+          "url": "https://cpc.parivesh.nic.in/writereaddata/Order%20and%20Release/Minutes%20of%2050%20Meeting%20of%20the%20Standing%20Committee%20of%20National%20Board%20for%20Wildlife.pdf"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.49,
+          20.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "S08",
+        "location": "Wardha reference area",
+        "lat": 20.75,
+        "lon": 78.6,
+        "radius_km": 10.0,
+        "topic": "Wildlife movement",
+        "phase": "Operations",
+        "evidence": "Published monitoring",
+        "source_id": "wii-2025",
+        "assessment": "Wildlife Institute of India reports ongoing camera monitoring at selected overpasses and underpasses on the expressway.",
+        "mitigation": "Maintain crossing approaches and use continuing monitoring to assess usage.",
+        "measurement": "Compare detections per camera-day by crossing type when structure-level data is available.",
+        "source": {
+          "source_id": "wii-2025",
+          "title": "Wildlife Institute of India 36th Annual Research Seminar (2025) — Samruddhi crossing monitoring",
+          "url": "https://wii.gov.in/uploads/media/publications/36-ars-abstracts.pdf"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.6,
+          20.75
+        ]
+      }
+    }
+  ]
+}

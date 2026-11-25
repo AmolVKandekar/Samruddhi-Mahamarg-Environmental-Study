@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Samruddhi Mahamarg | Environmental Screening</title>
+  <link rel="stylesheet" href="study.css">
+  <script src="map.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="label">Amol Kandekar · Diploma research companion</p>
+      <h1>Samruddhi Mahamarg environmental screening</h1>
+      <p>Explore wildlife movement, habitat, air quality, and soil questions at approximate reference locations across Maharashtra. Evidence types distinguish published observations and clearance conditions from proposed monitoring.</p>
+    </header>
+    <div class="layout">
+      <section aria-labelledby="map-title"><h2 id="map-title">Reference map</h2>
+        <label for="topic">Filter by topic</label><select id="topic"><option value="">All topics</option></select>
+        <canvas id="map" width="800" height="320" role="img" aria-label="Schematic coordinates of reference locations. Use the adjacent observations list to select a location."></canvas>
+        <p class="muted">Circles show illustrative screening distances from approximate area reference points. The map uses longitude and latitude, with no surveyed road alignment or measured impact boundaries.</p>
+        <div class="downloads"><a href="reference-sites.geojson" download>Reference points</a><a href="screening-buffers.geojson" download>Screening buffers</a><a href="evidence-summary.csv" download>Evidence summary CSV</a></div>
+      </section>
+      <section aria-labelledby="observations-title"><h2 id="observations-title">Observations</h2><p class="muted" id="count" aria-live="polite"></p><div id="entries"></div></section>
+    </div>
+    <section id="assessment" aria-live="polite" aria-labelledby="assessment-title"></section>
+  </main>
+  <script type="application/json" id="evidence-data">__EVIDENCE_PAYLOAD__</script>
+</body>
+</html>
